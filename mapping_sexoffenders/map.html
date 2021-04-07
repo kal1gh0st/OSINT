@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      html, body, #map-canvas { height: 100%; margin: 0; padding: 0;}
+    </style>
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=YOURAPIKEYHERE">
+    </script>
+     <script type='text/javascript' src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+  </head>
+  <body>
+<div id="map-canvas"></div>
+<script>
+
+function initialize() {
+            mapOptions = {
+                zoom: 9,
+                mapTypeId: google.maps.MapTypeId.ROADMAP,
+                scrollwheel: false
+            };
+
+        var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+
+        drawSchoolCircles(map);
+    }
+
+    function drawSchoolCircles(map) {
+
+	var radius = parseFloat(location.search.split('radius=')[1]);
+
+        var json = (function () { 
+            var json = null; 
+            $.ajax({ 
+                'async': false, 
+                'global': false, 
+                'url': "schools.json", 
+                'dataType': "json", 
+                'success': function (data) {
+                     json = data; 
+                 }
+            });
+            return json;
+        })();
+
+        //loop between each of the json elements
+        for (var i = 0, length = json.length; i < length; i++) {
+        
+	    var data = json[i],
+        
+	    latLng = new google.maps.LatLng(data.location.lat, data.location.lon); 
+	
+	        var circle = new google.maps.Circle({
+        	        strokeColor: '#000000',
+                	strokeOpacity: 0.0,
+     	                strokeWeight: 1.0,
+        	        fillColor: '#000000',
+                	fillOpacity: 0.9,
+                	clickable: false,
+                	map: map,
+                	center: latLng,
+                	radius: radius
+            	});
+	
+		cityCircle = new google.maps.Circle(circle);
+
+        }
+	map.setCenter(latLng);
+    }
+
+
+   google.maps.event.addDomListener(window, 'load', initialize);
+
+</script>
+  </body>
+</html>
