@@ -263,12 +263,4 @@ curl https://keybase.io/ktx/pgp_keys.asc | gpg --import
 # the Keybase app can push to gpg keychain, too
 keybase pgp pull ktx
 ```
-___
-
-*If you wish to stay updated on this project:*
-
-
-<h1 align="center">
-  <a href="https://twitter.com/kh4st3x"><img src="https://i.imgur.com/S79Nimd.png" width="420" title="Twitter"></a>
-</h1>
 
