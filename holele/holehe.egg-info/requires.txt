@@ -1,0 +1,7 @@
+requests
+argparse
+termcolor
+tqdm
+mechanize
+lxml
+bs4

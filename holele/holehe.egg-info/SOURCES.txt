@@ -1,0 +1,11 @@
+README.md
+setup.py
+holehe/__init__.py
+holehe/core.py
+holehe/localuseragent.py
+holehe.egg-info/PKG-INFO
+holehe.egg-info/SOURCES.txt
+holehe.egg-info/dependency_links.txt
+holehe.egg-info/entry_points.txt
+holehe.egg-info/requires.txt
+holehe.egg-info/top_level.txt
