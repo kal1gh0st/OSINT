@@ -5,8 +5,7 @@
 <a href="https://github.com/Moham3dRiahi/Th3inspector"><img src="https://img.shields.io/badge/Supported%20OS-Linux%2FWindows%2FmacOS-brightgreengreen.svg" alt="Build" data-canonical-src="https://img.shields.io/badge/Supported%20OS-Linux%2FWindows%2FmacOS-brightgreengreen.svg" style="max-width:100%;"></a>
 <a href="https://github.com/Moham3dRiahi/Th3inspector/blob/master/LICENSE"><img src="https://img.shields.io/packagist/l/doctrine/orm.svg" alt="Build" data-canonical-src="https://img.shields.io/packagist/l/doctrine/orm.svg" style="max-width:100%;"></a><br>
 <hr><h2>📣 🔥 Finally My New Private Tool 🔥 📣</h2>
-<h2>🌟 <a href="https://github.com/Moham3dRiahi/XAttacker/blob/master/Premium.md">XAttacker v20 Tool Premium</a> 🌟</h2>
-<hr>
+
 <h4>Th3inspector 🕵️ best tool for Information Gathering 🔎</h4>
 <img src="https://i.imgur.com/Q81YJCU.png" data-canonical-src="https://i.imgur.com/niFwcaM.png" width="700" height="470">
 <hr>
@@ -131,22 +130,12 @@
 
 ``perl Th3inspector.pl -c example.com``
 
-<hr>
-
-## Donations
-
-Found XATTACKER cool? just drop a THANK YOU 
-this will motivate me to create more exciting stuffs for you
-
-<hr>
-
-
 
 
 ## Installation [Linux](https://wikipedia.org/wiki/Linux) [![alt tag](http://icons.iconarchive.com/icons/dakirby309/simply-styled/32/OS-Linux-icon.png)](https://fr.wikipedia.org/wiki/Linux)
 
 ```bash
-git clone https://github.com/kal1gh0st/Th3inspector.git
+git clone https://github.com/kal1gh0st/OSINT/TheInspector 
 cd Th3inspector
 chmod +x install.sh && ./install.sh
 ```
@@ -156,7 +145,7 @@ chmod +x install.sh && ./install.sh
 Download [Termux](https://play.google.com/store/apps/details?id=com.termux)
 
 ```bash
-git clone https://github.com/Moham3dRiahi/Th3inspector.git
+git clone https://github.com/kal1gh0st/OSINT/TheInspector
 cd Th3inspector
 chmod +x install.sh && ./install.sh
 ```
