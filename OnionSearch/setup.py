@@ -1,4 +1,8 @@
 # -*- coding: utf-8 -*-
+#bin/bash --!!
+#Kal1gh0st
+#importe stage
+
 from setuptools import setup, find_packages
 
 
