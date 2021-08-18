@@ -27,7 +27,7 @@ def printAscii():
 \/    |_|  \___/ \__\___/|___/_|_| |_|\__|
 	                                          
 	""")
-
+#Kal1gh0st
 	
 def checkProtonAPIStatut():
 	"""
