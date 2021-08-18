@@ -1,6 +1,6 @@
 # OnionSearch
 ![PyPI](https://img.shields.io/pypi/v/onionsearch) ![PyPI - Week](https://img.shields.io/pypi/dw/onionsearch) ![PyPI - Downloads](https://static.pepy.tech/badge/onionsearch) ![PyPI - License](https://img.shields.io/pypi/l/onionsearch)
-#### For BTC Donations : 1FHDM49QfZX6pJmhjLE5tB2K6CaTLMZpXZ
+
 ## Educational purposes only
 
 OnionSearch is a Python3 script that scrapes urls on different ".onion" search engines.
