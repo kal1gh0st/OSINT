@@ -173,8 +173,6 @@ losing the results if something goes wrong). To do so you have to use `--continu
 onionsearch "computer" --continuous_write True
 ```
 You can then use the `tail -f` (tail follow) Unix command to actively watch or monitor the results of the scraping.
-## Thank you to [Gobarigo](https://github.com/Gobarigo)
-## Thank you [mxrch](https://github.com/mxrch) for this logo
 
 ## 📝 License
 [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.fr.html)
